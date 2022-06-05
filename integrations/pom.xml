@@ -13,7 +13,7 @@
 
   <properties>
     <maven.deploy.skip>true</maven.deploy.skip> <!-- no need to be deployed during release, this is a test-only module -->
-    <jackson.version>2.13.1</jackson.version>
+    <jackson.version>2.13.2</jackson.version>
     <enforcer.skip>true</enforcer.skip> <!-- I give up, too much effort to maintain enforcer here, should probably try clear out all enforcer only deps and see if it works -->
     <netty.version>4.1.74.Final</netty.version>
     <jenkins.version>2.346</jenkins.version>
@@ -82,7 +82,7 @@
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>crowd2</artifactId>
       <scope>test</scope>
-      <version>2.0.2</version>
+      <version>3.1.2</version>
     </dependency>
 
     <dependency>
@@ -126,7 +126,7 @@
     <dependency>
       <groupId>io.jenkins.docker</groupId>
       <artifactId>docker-plugin</artifactId>
-      <version>1.2.8</version>
+      <version>1.2.9</version>
       <scope>test</scope>
       <exclusions>
         <exclusion>
@@ -490,7 +490,7 @@
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>mercurial</artifactId>
-      <version>2.16</version>
+      <version>2.16.1</version>
     </dependency>
 
     <dependency>
@@ -637,7 +637,7 @@
       <dependency>
         <groupId>com.amazonaws</groupId>
         <artifactId>aws-java-sdk-sns</artifactId>
-        <version>1.12.177</version>
+        <version>1.12.233</version>
       </dependency>
       <dependency>
         <groupId>org.jenkins-ci.plugins</groupId>
@@ -710,7 +710,7 @@
       <dependency>
         <groupId>com.google.errorprone</groupId>
         <artifactId>error_prone_annotations</artifactId>
-        <version>2.11.0</version>
+        <version>2.14.0</version>
       </dependency>
       <dependency>
         <groupId>com.google.protobuf</groupId>
@@ -770,7 +770,7 @@
       <dependency>
         <groupId>org.apache.maven</groupId>
         <artifactId>maven-artifact</artifactId>
-        <version>3.8.4</version>
+        <version>3.8.5</version>
       </dependency>
       <dependency>
         <groupId>org.apache.maven</groupId>
@@ -780,7 +780,7 @@
       <dependency>
         <groupId>org.apache.maven</groupId>
         <artifactId>maven-plugin-api</artifactId>
-        <version>3.8.4</version>
+        <version>3.8.5</version>
       </dependency>
       <dependency>
         <groupId>org.codehaus.plexus</groupId>
@@ -805,7 +805,7 @@
       <dependency>
         <groupId>org.jenkins-ci.main</groupId>
         <artifactId>maven-plugin</artifactId>
-        <version>3.17</version>
+        <version>3.19</version>
       </dependency>
       <dependency>
         <groupId>org.jenkins-ci.modules</groupId>
@@ -821,7 +821,7 @@
       <dependency>
         <groupId>org.json</groupId>
         <artifactId>json</artifactId>
-        <version>20211205</version>
+        <version>20220320</version>
       </dependency>
       <dependency>
         <groupId>joda-time</groupId>
