@@ -721,7 +721,7 @@
       <dependency>
         <groupId>com.google.protobuf</groupId>
         <artifactId>protobuf-java</artifactId>
-        <version>3.21.4</version>
+        <version>3.21.7</version>
       </dependency>
       <dependency>
         <groupId>com.squareup.okio</groupId>
@@ -827,7 +827,7 @@
       <dependency>
         <groupId>org.json</groupId>
         <artifactId>json</artifactId>
-        <version>20220320</version>
+        <version>20220924</version>
       </dependency>
       <dependency>
         <groupId>joda-time</groupId>
